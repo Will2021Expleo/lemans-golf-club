@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/lemans-golf-club/static/css/main.91115836.css",
+    "main.js": "/lemans-golf-club/static/js/main.7261d281.js",
+    "static/media/slide1.jpg": "/lemans-golf-club/static/media/slide1.47bfbff53d88a8c6a7d0.jpg",
+    "static/media/slide5.jpg": "/lemans-golf-club/static/media/slide5.41f7cff10df801819ddc.jpg",
+    "static/media/slide4.jpg": "/lemans-golf-club/static/media/slide4.279e529ffb3829d11447.jpg",
+    "static/media/slide3.jpg": "/lemans-golf-club/static/media/slide3.87e30cd40296c0e8712c.jpg",
+    "static/media/slide2.jpg": "/lemans-golf-club/static/media/slide2.0cc2c6283b28de832e69.jpg",
+    "static/media/image_trou_1.jpg": "/lemans-golf-club/static/media/image_trou_1.f77024bdbde8a74aab61.jpg",
+    "static/media/image_parcours.png": "/lemans-golf-club/static/media/image_parcours.983c3707572320fa97f2.png",
+    "static/media/1.jpg": "/lemans-golf-club/static/media/1.6b715a00024b7768fff7.jpg",
+    "static/media/logo_enseignement.png": "/lemans-golf-club/static/media/logo_enseignement.4ae3a475a176488eb9a3.png",
+    "static/media/header_parcours.jpg": "/lemans-golf-club/static/media/header_parcours.3615e9c7c0b211004d02.jpg",
+    "static/media/inscription-competition.png": "/lemans-golf-club/static/media/inscription-competition.6e89c9bd80f620f80ee5.png",
+    "static/media/logo_score_card.png": "/lemans-golf-club/static/media/logo_score_card.92522bbc880326ec9a88.png",
+    "static/media/image_trou_2.jpg": "/lemans-golf-club/static/media/image_trou_2.88106f6d2363d8b941b0.jpg",
+    "static/media/slidecard.jpg": "/lemans-golf-club/static/media/slidecard.fe5193bba27ebb9d9d3f.jpg",
+    "static/media/depart-competition.png": "/lemans-golf-club/static/media/depart-competition.36b25a179b5dbef8c573.png",
+    "static/media/img-reservation-visiteurs.jpg": "/lemans-golf-club/static/media/img-reservation-visiteurs.054abe7e8c31cc3d9479.jpg",
+    "static/media/resultats-competition.jpg": "/lemans-golf-club/static/media/resultats-competition.4d6012d1f6022670e3b6.jpg",
+    "static/media/img-reservation-membres.jpg": "/lemans-golf-club/static/media/img-reservation-membres.84e0b5aff27f55fdd1de.jpg",
+    "static/media/arrow_left.svg": "/lemans-golf-club/static/media/arrow_left.7f812610b6e5a4e9fa537e65a59ba269.svg",
+    "static/media/arrow_right.svg": "/lemans-golf-club/static/media/arrow_right.2f095838969763748b8d61d520e72d4c.svg",
+    "index.html": "/lemans-golf-club/index.html",
+    "main.91115836.css.map": "/lemans-golf-club/static/css/main.91115836.css.map",
+    "main.7261d281.js.map": "/lemans-golf-club/static/js/main.7261d281.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91115836.css",
+    "static/js/main.7261d281.js"
+  ]
+}
