@@ -1,0 +1,53 @@
+.academie-content {
+    margin-top: 10px;
+    width: 100%;
+    height: 1200px;
+
+    border-radius: 5px;
+    background-image: url(./images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .golf-academie {
+        position: absolute;
+        top: 0;
+        right: 50%;
+        font-size: 50px;
+        font-weight: 800;
+        text-transform: uppercase;
+        transform: translateX(50%);
+        text-align: center;
+    }
+
+}
+
+.academie-navigation {
+
+    margin: 8px 10px;
+    width: 20%;
+    height: 200px;
+    border-radius: 5px;
+
+    li {
+        width: 100%;
+        background-color: rgb(138, 138, 237);
+        text-transform: uppercase;
+        padding: 10px 5px;
+        border-radius: 5px;
+        margin: 10px 0;
+        transition: 0.3s all ease-in-out;
+
+        &:hover {
+            font-weight: 800;
+        }
+    }
+}

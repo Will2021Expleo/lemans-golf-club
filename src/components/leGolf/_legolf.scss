@@ -1,0 +1,243 @@
+// Navigation
+.golf-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+
+    .box {
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(6, 158, 45, 0.5);
+        margin: 30px;
+        border-radius: 10px;
+        transition: 0.3s all ease-in-out;
+
+        &:hover {
+            transform: scale(1.2);
+            background: rgba(97, 250, 135, 0.5);
+        }
+
+        h3 {
+            vertical-align: middle;
+            text-align: center;
+        }
+    }
+}
+
+//Histoire et valeurs
+
+
+//Equipe du golf
+
+
+.content-legolf-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .photo-equipe {
+        margin: auto;
+        background-color: #fff;
+        width: 100%;
+        height: 150px;
+    }
+
+    .teams-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 30px 0 0 0;
+        width: 100%;
+
+        .direction,
+        .terrain,
+        .enseignement,
+        .restaurant {
+            width: 40%;
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+
+
+            h2 {
+                width: 100%;
+                height: 50px;
+                text-align: center;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                margin-bottom: 10px;
+            }
+
+            .cards {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                transition: 0.3s all ease;
+
+                &:hover {
+                    transform: scale(1.1)
+                }
+
+                .identity {
+                    display: flex;
+                    flex-direction: column;
+
+                    img {
+                        width: 90px;
+                        height: 85px;
+                        background: blue;
+                    }
+
+                    .name {
+                        font-size: 12px;
+                        margin: 0;
+                    }
+
+                    .fonction {
+                        font-size: 10px;
+                        margin: 0 0 10px 0;
+                    }
+                }
+
+                .presentation {
+                    width: 400px;
+                    height: 130px;
+                    font-size: 16px;
+                    background: yellow
+                }
+            }
+        }
+
+        .direction {
+            h2 {
+                background-color: #6998ab;
+            }
+        }
+
+        .terrain {
+            h2 {
+                background-color: #91c788;
+            }
+        }
+
+        .enseignement {
+            h2 {
+                background-color: #f3950d;
+            }
+        }
+
+        .restaurant {
+            h2 {
+                background-color: #527340;
+            }
+        }
+    }
+}
+
+
+//tarifs
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .abonnement-box,
+    .greenfee-box {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+
+        &__title {
+            width: 100%;
+            height: 50px;
+            background-color: blue;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        &__table {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            padding: 0;
+
+            &__head {
+                text-transform: uppercase;
+            }
+
+            &__head,
+            &__details {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding: 3px;
+
+                p {
+                    width: 33%;
+                    font-size: 16px;
+                    text-align: center;
+                    // border: 1px solid black;
+                    margin: 0;
+                    padding: 3px;
+
+                }
+
+
+                .category {
+                    text-align: left;
+                    margin-left: 5px;
+                    background-color: #527340;
+                    color: #fff;
+                }
+
+                .tarif_semaine {
+                    background-color: red;
+                    color: #fff;
+                }
+
+                .tarif_full {
+                    background-color: orange;
+                    color: #fff;
+                }
+            }
+        }
+
+
+    }
+
+    .end-box {
+        width: 100%;
+        height: 50px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: blue;
+    }
+
+    .greenfee-box {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+
+        &__title {
+            width: 100%;
+            height: 50px;
+            background-color: blue;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-bottom: 5px;
+        }
+
+
+    }
+}

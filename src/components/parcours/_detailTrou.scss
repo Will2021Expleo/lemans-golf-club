@@ -1,0 +1,127 @@
+.content-hole-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+
+    .title-hole {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .content-card-hole {
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10px;
+
+
+        .hole-image {
+            width: 500px;
+            height: 300px;
+
+
+        }
+
+        .thumb-hole {
+            width: 300px;
+            height: 200px;
+
+
+        }
+
+        .distances {
+            padding: 20px;
+            font-size: 20px;
+
+            .distances-card {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                margin-bottom: 15px;
+
+                .white,
+                .yellow,
+                .blue,
+                .red,
+                .violet,
+                .orange {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    border: 1px solid rgb(92, 90, 90);
+                    margin-right: 10px;
+                }
+
+                .yellow {
+                    background: yellow;
+                }
+
+                .blue {
+                    background: blue;
+                }
+
+                .red {
+                    background: red;
+                }
+
+                .violet {
+                    background: rgb(117, 3, 117);
+                }
+
+                .orange {
+                    background: orange;
+                }
+
+                .title {
+                    font-size: 25px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .conseil-du-pro {
+        margin-top: 20px;
+
+        h2 {
+            font-weight: 600;
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
+
+.nav-hole {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+
+    .left,
+    .right {
+        width: 500px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background: #91C788;
+        color: #fff;
+        font-size: 25px;
+        margin: 0;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+}
